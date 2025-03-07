@@ -1,0 +1,7 @@
+.info_img:hover {
+  transform: scale(1.03);
+}
+.info_link:hover {
+  border-color: rgb(73, 206, 235);
+  color: rgb(73, 206, 235);
+}

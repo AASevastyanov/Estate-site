@@ -1,0 +1,9 @@
+.footer {
+  padding-bottom: 200px;
+}
+
+.footer_info {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  padding-top: 100px;
+}
