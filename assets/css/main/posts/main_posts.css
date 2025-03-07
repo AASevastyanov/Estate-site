@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+.posts_info:hover .info_img {
+  will-change: transform;
+}
+
 .info_date {
   font-family: var(--desk-font);
   font-size: 18px;

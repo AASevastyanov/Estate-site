@@ -1,6 +1,10 @@
-window.addEventListener('scroll', function() {
-  const parallax = document.querySelector('.parallax');
-  let scrollPosition = window.pageYOffset;
+let lastScroll = 0;
+window.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY;
 
-  parallax.style.backgroundPositionY = -(scrollPosition * 0.3) + 'px';
+  requestAnimationFrame(() => {
+    document.querySelector(".parallax").style.backgroundPositionY =
+      -(scrollPosition * 0.3) + "px";
+  });
+  lastScroll = scrollPosition;
 });
