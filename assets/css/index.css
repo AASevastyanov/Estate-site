@@ -1,15 +1,15 @@
 @import url(intro/intro.css);
 @import url(logo/logo.css);
-@import url(header/_nav/header_nav.css);
-@import url(main/_story/main_story.css);
-@import url(main/_posts/main_posts.css);
-@import url(main/_posts--hover/main_posts--hover.css);
-@import url(main/_pages/main_pages.css);
-@import url(main/_pages--hover/main_pages--hover.css);
+@import url(header/nav/header_nav.css);
+@import url(main/story/main_story.css);
+@import url(main/posts/main_posts.css);
+@import url(main/posts--hover/main_posts--hover.css);
+@import url(main/pages/main_pages.css);
+@import url(main/pages--hover/main_pages--hover.css);
 @import url(footer/footer.css);
-@import url(footer/_form/footer_form.css);
-@import url(footer/_contacts/footer_contacts.css);
-@import url(footer/_contacts/_contacts--hover/footer_contacts--hover.css);
+@import url(footer/form/footer_form.css);
+@import url(footer/contacts/footer_contacts.css);
+@import url(footer/contacts/contacts--hover/footer_contacts--hover.css);
 
 :root {
   --titles-font: "Source Sans 3", sans-serif;
