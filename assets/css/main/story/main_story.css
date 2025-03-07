@@ -1,0 +1,31 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.info .info_date {
+  margin-top: 100px;
+}
+
+.info .info_title {
+  font-size: 92px;
+  max-width: 900px;
+}
+
+.info .info_description {
+  max-width: 900px;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.info .info_img {
+  width: 75%;
+}
+
+.info .info_link {
+  font-size: 18px;
+  padding: 25px 70px;
+}
