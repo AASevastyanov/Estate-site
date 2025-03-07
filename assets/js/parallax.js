@@ -1,6 +1,19 @@
-window.addEventListener('scroll', function() {
-  const parallax = document.querySelector('.parallax');
-  let scrollPosition = window.pageYOffset;
+let lastKnownScrollPosition = 0;
+let ticking = false;
+const parallax = document.querySelector(".parallax");
 
-  parallax.style.backgroundPositionY = -(scrollPosition * 0.3) + 'px';
+function doParallax(scrollPos) {
+  parallax.style.backgroundPositionY = `${scrollPos * 0.3}px`;
+}
+
+window.addEventListener("scroll", () => {
+  lastKnownScrollPosition = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      doParallax(lastKnownScrollPosition);
+      ticking = false;
+    });
+
+    ticking = true;
 });
