@@ -28,6 +28,7 @@
   background-repeat: no-repeat;
   z-index: -1;
 }
+
 .header .container {
   margin: 120px auto 0;
   background-color: inherit;
@@ -48,5 +49,10 @@
 @media (max-width:480px) {
   .container {
     max-width: 95%;
+  }
+
+  .parallax {
+    background-size: 100% auto; 
+    background-attachment: fixed;
   }
 }
