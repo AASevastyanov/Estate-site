@@ -22,12 +22,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100dvh;
+  height: 100%;
   background-image: url("../../images/background-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  transition: height 100s;
 }
 
 .header .container {
@@ -51,4 +50,9 @@
   .container {
     max-width: 95%;
   }
+  .parallax {
+
+    transition: height 100s;
+  }
+
 }
