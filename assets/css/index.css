@@ -27,6 +27,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+  transition: height 0s;
 }
 
 .header .container {
