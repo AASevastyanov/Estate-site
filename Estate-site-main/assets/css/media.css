@@ -1,0 +1,18 @@
+@media (max-width:1200px) {
+  .footer_info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:992px) {
+  
+}
+
+@media (max-width:768px) {
+  
+}
+
+@media (max-width:480px) {
+  
+}
