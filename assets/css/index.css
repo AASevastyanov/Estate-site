@@ -1,4 +1,4 @@
-@import url(intro/intro.css);
+@import url(intro-wrapper/intro-wrapper.css);
 @import url(logo/logo.css);
 @import url(header/nav/header_nav.css);
 @import url(main/story/main_story.css);
@@ -10,6 +10,7 @@
 @import url(footer/form/footer_form.css);
 @import url(footer/contacts/footer_contacts.css);
 @import url(footer/contacts/contacts--hover/footer_contacts--hover.css);
+
 
 :root {
   --titles-font: "Source Sans 3", sans-serif;
@@ -24,6 +25,7 @@
   height: 100%;
   background-image: url("../../images/background-image.webp");
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 .header .container {
@@ -35,4 +37,16 @@
   max-width: 83%;
   margin: 0 auto;
   background-color: white;
+}
+
+@media (max-width:768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width:480px) {
+  .container {
+    max-width: 95%;
+  }
 }

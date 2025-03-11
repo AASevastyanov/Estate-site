@@ -16,4 +16,33 @@
   transition: border-color 0.3s ease, color 0.3s ease;
 }
 
+@media (max-width:992px) {
+  .pages {
+    width: 70%;
+    margin: 150px auto 0;
+  }
 
+  .pages_list {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:768px) {
+  .pages {
+    width: 100%;
+    margin: 150px auto 0;
+  }
+  .pages_list {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:480px) {
+  .pages {
+    width: 100%;
+    margin: 150px auto 0;
+  }
+  .pages_list a {
+    padding: 0;
+  }
+}

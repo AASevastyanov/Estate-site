@@ -37,3 +37,12 @@ textarea {
   border: 2px solid grey;
   color: grey;
 }
+
+@media (max-width:768px) {
+  .footer_form {
+    margin: 0 auto;
+  }
+  .form_send {
+    margin: 30px auto ;
+  }
+}
