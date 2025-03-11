@@ -27,7 +27,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  transition: height 0s;
 }
 
 .header .container {
@@ -51,9 +50,6 @@
   .container {
     max-width: 95%;
   }
-  .parallax {
 
-    transition: height 100s;
-  }
 
 }
