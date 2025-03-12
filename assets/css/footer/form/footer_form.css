@@ -1,18 +1,18 @@
-.footer_form {
+.footer__form {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin-left: 80px;
 }
 
-.footer_form label {
+.footer__form label {
   margin: 20px 0;
   font-size: 18px;
   font-family: var(--titles-font);
   color: grey;
 }
 
-.form_input {
+.form__input {
   width: 100%;
   padding: 20px;
   font-size: 24px;
@@ -23,11 +23,11 @@ textarea {
   resize: none;
 }
 
-.form_input:focus {
+.form__input:focus {
   border-color: rgb(73, 206, 235);
 }
 
-.form_send {
+.form__send {
   width: 230px;
   font-size: 18px;
   padding: 15px 50px;
@@ -39,10 +39,10 @@ textarea {
 }
 
 @media (max-width:768px) {
-  .footer_form {
+  .footer__form {
     margin: 0 auto;
   }
-  .form_send {
+  .form__send {
     margin: 30px auto ;
   }
 }

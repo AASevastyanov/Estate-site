@@ -1,4 +1,4 @@
-.pages_list a:hover {
+.pages__list a:hover {
   border-color: rgb(73, 206, 235);
   color: rgb(73, 206, 235);
 }

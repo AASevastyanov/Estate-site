@@ -6,48 +6,48 @@
   gap: 50px;
 }
 
-.info .info_date {
+.info .info__date {
   margin-top: 100px;
 }
 
-.info .info_title {
+.info .info__title {
   font-size: 92px;
   padding: 0 4vw;
 }
 
-.info .info_description {
+.info .info__description {
   padding: 0 4vw;
   font-style: italic;
   font-size: 22px;
 }
 
-.info .info_img {
+.info .info__img {
   width: 75%;
 }
 
-.info .info_link {
+.info .info__link {
   font-size: 18px;
   padding: 25px 70px;
 }
 
 @media (max-width:992px) {
-  .info .info_title {
+  .info .info__title {
     font-size: 48px;
   }
 
-  .info .info_description {
+  .info .info__description {
     font-size: 18px;
   }
 }
 
 @media (max-width:768px) {
-  .info .info_title {
+  .info .info__title {
     font-size: 38px;
   }
-  .info .info_description {
+  .info .info__description {
     padding: 0 20px;
   }
-  .info .info_img {
+  .info .info__img {
     width: 90%;
     height: 300px;
   }
